@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+class Person {
+private:
+    string name;  // نام شخص (خصوصی)
+
+public:
+    // تابع برای تنظیم نام (Setter)
+    void setName(string newName) {
+        name = newName;
+    }
+
+    // تابع برای دریافت نام (Getter)
+    string getName() {
+        return name;
+    }
+};
+
+int main() {
+    Person person;
+    person.setName("علی");  // تنظیم نام
+    cout << "نام شخص: " << person.getName() << endl;  // نمایش نام
+
+    return 0;
+}
