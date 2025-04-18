@@ -4,7 +4,7 @@
 using namespace std;
 
 // کلاس والد Car
-// کلاس والد Car
+
 class Car {
 private:
     bool fuelPump;
