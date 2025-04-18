@@ -1,3 +1,4 @@
+//مدل ساده
 #include <iostream>
 #include <string>
 using namespace std;
@@ -65,7 +66,7 @@ int main() {
 
     return 0;
 }
-
+//مدل خفن تابعی
 #include <iostream>
 #include <string>
 using namespace std;
